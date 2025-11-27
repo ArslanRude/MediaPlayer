@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate);
         blinkAnimation = AnimationUtils.loadAnimation(this, R.anim.blink);
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.sample_music);
+        mediaPlayer = MediaPlayer.create(this, R.raw.song);
 
         btnPlay.setOnClickListener(v -> playMusic());
         btnPause.setOnClickListener(v -> pauseMusic());
